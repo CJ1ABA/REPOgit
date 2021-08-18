@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import ClickTheCheckBox from './store';
 
-export default function SimpleMenu() {
+export default function SimpleMenu({ disable }) {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -14,7 +15,7 @@ export default function SimpleMenu() {
     };
     return (
         <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ color: '#61dafb' }}>
+            <Button disabled={disable} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ color: '#61dafb' }}>
                 Open Menu
             </Button>
             <Menu
@@ -31,7 +32,6 @@ export default function SimpleMenu() {
                     <MenuItem onClick={handleClose} style={{ color: '#61dafb' }}>Chat-rooms </MenuItem>
                 </Link>
             </Menu>
-            <hr />
         </div >
     );
 }

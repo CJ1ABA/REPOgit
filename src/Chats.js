@@ -30,7 +30,7 @@ export default function Chats() {
                         variant="contained"
                     >
                         <Link to='/Chat1' style={{ textDecoration: 'none' }}>
-                            <Button>One</Button>
+                            <Button>Chatroom - One</Button>
                         </Link>
                         <Link to='/' style={{ textDecoration: 'none' }}>
                             <Button>Two</Button>

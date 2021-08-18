@@ -13,6 +13,11 @@ background-color: #b0b5bd;
  flex-direction: column;
  width: 100%;
 }
+.topMenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -57,7 +62,9 @@ background-color: #b0b5bd;
 }
 .chat-butt{
   align-self: baseline;
-  background-color: gray;
+  min-width: 200px;
+  height: 83vh;
+    background-color: gray;
     padding: 18px;
     border-radius: 10px;
 }
