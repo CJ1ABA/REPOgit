@@ -18,7 +18,6 @@ function Home({ visible, actionClick }) {
     return (
         <div className={style.root}>
             <div className="topMenu">
-                <button onClick={actionClick}>Click</button>
                 <SimpleMenu disable={visible} /> <UCheckbox props={actionClick} />
             </div>
             <hr />
