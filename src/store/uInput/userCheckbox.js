@@ -7,7 +7,7 @@ export function UCheckbox({ props }) {
                 width: '33%',
             }}
         >
-            <label onClick={props}><input type="checkbox" style={{ marginRight: '8px' }} />Нажимая ЗДЕСЬ Вы получаете доступность кнопки меню.</label>
+            <label><input type="checkbox" style={{ marginRight: '8px' }} onClick={props} />Нажимая ЗДЕСЬ Вы получаете доступность кнопки меню.</label>
         </div >
     )
 }
