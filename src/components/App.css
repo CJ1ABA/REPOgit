@@ -62,12 +62,11 @@ background-color: #b0b5bd;
 }
 .chat-butt{
   align-self: baseline;
-  min-width: 50px;
+  min-width: 200px;
   height: 83vh;
-  background-color: gray;
-  padding: 18px;
-  margin-left: 8px;
-  border-radius: 10px;
+    background-color: gray;
+    padding: 18px;
+    border-radius: 10px;
 }
 .App-butt:hover{
   background-color:#61dafb ;

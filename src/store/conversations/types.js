@@ -1,0 +1,5 @@
+export const CHANGE_MESSAGE_VALUE = "@conversations/handle change value"
+export const CLEAR_MESSAGE_VALUE = "@conversations/clear message value"
+export const GET_CONVERSATIONS = "@conversations/get conversations from DB"
+export const GET_CONVERSATIONS_ERROR = "@conversations/error get conversations query"
+export const GET_CONVERSATIONS_START = "@conversations/start to get conversations from DB"
