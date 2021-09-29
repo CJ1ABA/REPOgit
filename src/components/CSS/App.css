@@ -28,7 +28,11 @@ background-color: #b0b5bd;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.authy{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 240px;
+}
 .App-header {
   /* background-color: #282c34; */
   min-height: 100vh;
@@ -61,12 +65,13 @@ background-color: #b0b5bd;
   border: grey solid 2px;
 }
 .chat-butt{
+  display: flex;
+  flex-direction: column;
   align-self: baseline;
-  min-width: 50px;
+  min-width: 200px;
   height: 83vh;
   background-color: gray;
   padding: 18px;
-  margin-left: 8px;
   border-radius: 10px;
 }
 .App-butt:hover{
@@ -86,7 +91,7 @@ background-color: #b0b5bd;
  }
 
 .App-link {
-  color: #61dafb;
+  color: #99a5a9;
   text-align: center;
 }
 .msgBox{
@@ -94,6 +99,11 @@ background-color: #b0b5bd;
   padding: 24px;
 border-radius: 12px;
 margin: 8px;
+}
+.date{
+  font-size: 14px;
+  color: skyblue;
+  text-align: right;
 }
 
 @keyframes App-logo-spin {

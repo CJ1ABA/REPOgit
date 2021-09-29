@@ -1,0 +1,1 @@
+export const CLICK_THE_CHECKBOX = '@uinput/checkbox clicked'

@@ -1,5 +1,5 @@
 
-export function UCheckbox({ props }) {
+export function UCheckbox({ actionClick, checked }) {
     return (
         < div
             style={{
@@ -7,7 +7,7 @@ export function UCheckbox({ props }) {
                 width: '33%',
             }}
         >
-            <label><input type="checkbox" style={{ marginRight: '8px' }} onClick={props} />Нажимая ЗДЕСЬ Вы получаете доступность кнопки меню.</label>
+            <label><input type="checkbox" style={{ marginRight: '8px' }} onClick={actionClick} checked={!checked} />Нажимая ЗДЕСЬ Вы получаете доступность кнопки меню.</label>
         </div >
     )
 }

@@ -1,10 +1,11 @@
+import { CLICK_THE_CHECKBOX } from './types'
 const initialState = {
-    isVisible: 'false',
+    isVisible: false,
 };
 
-export function Switcher(state = initialState, action) {
+export function profileReducer(state = initialState, action) {
     switch (action.type) {
-        case 'Clicked':
+        case CLICK_THE_CHECKBOX:
             return {
                 ...state,
                 isVisible: !state.isVisible
